@@ -8028,6 +8028,584 @@ window#waybar {
         true
       </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/waybar.nix#blob-path" target="_top">
                     &lt;home-manager/modules/programs/waybar.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.enable"></a><a class="term" href="options.html#opt-programs.wezterm.enable"><code class="option">programs.wezterm.enable</code></a></span></dt><dd><p>Whether to enable Wezterm terminal emulator.</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        false
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        true
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.package"></a><a class="term" href="options.html#opt-programs.wezterm.package"><code class="option">programs.wezterm.package</code></a></span></dt><dd><p>Wezterm package to use. Set to <code class="code">null</code> to use default package.
+</p><p><span class="emphasis"><em>Type:</em></span> package</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "pkgs.wezterm"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors"></a><a class="term" href="options.html#opt-programs.wezterm.colors"><code class="option">programs.wezterm.colors</code></a></span></dt><dd><p>Set terminal colors.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  foreground = "#C0C0C0";
+  background = "#000000";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi"><code class="option">programs.wezterm.colors.ansi</code></a></span></dt><dd><p>The main ansi colors.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  black = "#000000";
+  red = "#800000";
+  green = "#008000";
+  yellow = "#808000";
+  blue = "#000080";
+  magenta = "#800080";
+  cyan = "#008080";
+  white = "#C0C0C0";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.black"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.black"><code class="option">programs.wezterm.colors.ansi.black</code></a></span></dt><dd><p>The ansi black color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.blue"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.blue"><code class="option">programs.wezterm.colors.ansi.blue</code></a></span></dt><dd><p>The ansi blue color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#000080"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#000080"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.cyan"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.cyan"><code class="option">programs.wezterm.colors.ansi.cyan</code></a></span></dt><dd><p>The ansi cyan color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#008080"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#008080"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.green"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.green"><code class="option">programs.wezterm.colors.ansi.green</code></a></span></dt><dd><p>The ansi green color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#008000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#008000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.magenta"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.magenta"><code class="option">programs.wezterm.colors.ansi.magenta</code></a></span></dt><dd><p>The ansi magenta color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#800080"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#800080"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.red"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.red"><code class="option">programs.wezterm.colors.ansi.red</code></a></span></dt><dd><p>The ansi red color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#800000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#800000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.white"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.white"><code class="option">programs.wezterm.colors.ansi.white</code></a></span></dt><dd><p>The ansi white color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#C0C0C0"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#C0C0C0"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.ansi.yellow"></a><a class="term" href="options.html#opt-programs.wezterm.colors.ansi.yellow"><code class="option">programs.wezterm.colors.ansi.yellow</code></a></span></dt><dd><p>The ansi yellow color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#808000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#808000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.background"><code class="option">programs.wezterm.colors.background</code></a></span></dt><dd><p>The default background color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright"><code class="option">programs.wezterm.colors.bright</code></a></span></dt><dd><p>The main bright colors.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  black = "#808080";
+  red = "#FF0000";
+  green = "#00FF00";
+  yellow = "#FFFF00";
+  blue = "#0000FF";
+  magenta = "#FF00FF";
+  cyan = "#00FFFF";
+  white = "#FFFFFF";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.black"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.black"><code class="option">programs.wezterm.colors.bright.black</code></a></span></dt><dd><p>The bright black color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#808080"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#808080"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.blue"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.blue"><code class="option">programs.wezterm.colors.bright.blue</code></a></span></dt><dd><p>The bright blue color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#0000FF"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#0000FF"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.cyan"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.cyan"><code class="option">programs.wezterm.colors.bright.cyan</code></a></span></dt><dd><p>The bright cyan color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#00FFFF"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#00FFFF"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.green"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.green"><code class="option">programs.wezterm.colors.bright.green</code></a></span></dt><dd><p>The bright green color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#00FF00"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#00FF00"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.magenta"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.magenta"><code class="option">programs.wezterm.colors.bright.magenta</code></a></span></dt><dd><p>The bright magenta color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#FF00FF"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#FF00FF"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.red"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.red"><code class="option">programs.wezterm.colors.bright.red</code></a></span></dt><dd><p>The bright red color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#FF0000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#FF0000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.white"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.white"><code class="option">programs.wezterm.colors.bright.white</code></a></span></dt><dd><p>The bright white color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#FFFFFF"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#FFFFFF"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.bright.yellow"></a><a class="term" href="options.html#opt-programs.wezterm.colors.bright.yellow"><code class="option">programs.wezterm.colors.bright.yellow</code></a></span></dt><dd><p>The bright yellow color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#FFFF00"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#FFFF00"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.cursor"></a><a class="term" href="options.html#opt-programs.wezterm.colors.cursor"><code class="option">programs.wezterm.colors.cursor</code></a></span></dt><dd><p>The color of the cursor.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  foreground = "#52ad70";
+  background = "#000000";
+  border = "#52AD70";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.cursor.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.cursor.background"><code class="option">programs.wezterm.colors.cursor.background</code></a></span></dt><dd><p>Overrides the cell background color when the current cell is occupied by the cursor and the cursor style is set to Block.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#52AD70"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#52AD70"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.cursor.border"></a><a class="term" href="options.html#opt-programs.wezterm.colors.cursor.border"><code class="option">programs.wezterm.colors.cursor.border</code></a></span></dt><dd><p>Specifies the border color of the cursor when the cursor style is set to Block,
+of the color of the vertical or horizontal bar when the cursor style is set to Bar or Underline.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#52AD70"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#52AD70"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.cursor.foreground"></a><a class="term" href="options.html#opt-programs.wezterm.colors.cursor.foreground"><code class="option">programs.wezterm.colors.cursor.foreground</code></a></span></dt><dd><p>Overrides the text color when the current cell is occupied by the cursor.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.foreground"></a><a class="term" href="options.html#opt-programs.wezterm.colors.foreground"><code class="option">programs.wezterm.colors.foreground</code></a></span></dt><dd><p>The default text color.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#C0C0C0"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#C0C0C0"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.scrollbarThumb"></a><a class="term" href="options.html#opt-programs.wezterm.colors.scrollbarThumb"><code class="option">programs.wezterm.colors.scrollbarThumb</code></a></span></dt><dd><p>The color of the scrollbar "thumb"; the portion that represents the current viewport
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#222222"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#222222"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.selection"></a><a class="term" href="options.html#opt-programs.wezterm.colors.selection"><code class="option">programs.wezterm.colors.selection</code></a></span></dt><dd><p>The color of the selection.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  foreground = "#FFFACD";
+  background = "#000000";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.selection.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.selection.background"><code class="option">programs.wezterm.colors.selection.background</code></a></span></dt><dd><p>The background color of selected text.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#FFFACD"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#FFFACD"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.selection.foreground"></a><a class="term" href="options.html#opt-programs.wezterm.colors.selection.foreground"><code class="option">programs.wezterm.colors.selection.foreground</code></a></span></dt><dd><p>The foreground color of selected text.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#000000"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.split"></a><a class="term" href="options.html#opt-programs.wezterm.colors.split"><code class="option">programs.wezterm.colors.split</code></a></span></dt><dd><p>The color of the split lines between panes
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#444444"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#444444"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar"><code class="option">programs.wezterm.colors.tabBar</code></a></span></dt><dd><p>The colors of the tab bar.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  background = "#0b0022";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab"><code class="option">programs.wezterm.colors.tabBar.activeTab</code></a></span></dt><dd><p>Color the tab that has focus in the window.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  background = "#2B2042";
+  foreground = "#C0C0C0";
+  intensity = "Bold";
+  italic = false;
+  strikethrough = false;
+  underline = "None";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab.background"><code class="option">programs.wezterm.colors.tabBar.activeTab.background</code></a></span></dt><dd><p>The color of the background area for the tab.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#2B2042"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#2B2042"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab.foreground"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab.foreground"><code class="option">programs.wezterm.colors.tabBar.activeTab.foreground</code></a></span></dt><dd><p>The color of the text for the tab.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#C0C0C0"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#C0C0C0"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab.intensity"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab.intensity"><code class="option">programs.wezterm.colors.tabBar.activeTab.intensity</code></a></span></dt><dd><p>Specify whether you want "Half", "Normal" or "Bold" intensity for the label shown for this tab.
+The default is "Normal".
+</p><p><span class="emphasis"><em>Type:</em></span> one of "Half", "Normal", "Bold"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "Normal"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "Normal"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab.italic"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab.italic"><code class="option">programs.wezterm.colors.tabBar.activeTab.italic</code></a></span></dt><dd><p>Specify whether you want the text to be italic (true) or not (false) for this tab. The default is false.
+</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        false
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "false"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab.strikethrough"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab.strikethrough"><code class="option">programs.wezterm.colors.tabBar.activeTab.strikethrough</code></a></span></dt><dd><p>Specify whether you want the text to be rendered with strikethrough (true) or not (false) for this tab. The default is false.
+</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        false
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "false"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.activeTab.underline"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.activeTab.underline"><code class="option">programs.wezterm.colors.tabBar.activeTab.underline</code></a></span></dt><dd><p>Specify whether you want "None", "Single" or "Double" underline for label shown for this tab.
+The default is "None".
+</p><p><span class="emphasis"><em>Type:</em></span> one of "None", "Single", "Double"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "None"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "None"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.background"><code class="option">programs.wezterm.colors.tabBar.background</code></a></span></dt><dd><p>The color of the strip that goes along the top of the window.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#0B0022"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#0B0022"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab"><code class="option">programs.wezterm.colors.tabBar.inactiveTab</code></a></span></dt><dd><p>Color the tabs that do not have focus.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  background = "#1B1032";
+  foreground = "#808080";
+  intensity = "Normal";
+  italic = false;
+  strikethrough = false;
+  underline = "None";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab.background"><code class="option">programs.wezterm.colors.tabBar.inactiveTab.background</code></a></span></dt><dd><p>The color of the background area for the tab.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#1B1032"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#1B1032"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab.foreground"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab.foreground"><code class="option">programs.wezterm.colors.tabBar.inactiveTab.foreground</code></a></span></dt><dd><p>The color of the text for the tab.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#808080"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#808080"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab.intensity"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab.intensity"><code class="option">programs.wezterm.colors.tabBar.inactiveTab.intensity</code></a></span></dt><dd><p>Specify whether you want "Half", "Normal" or "Bold" intensity for the label shown for this tab.
+The default is "Normal".
+</p><p><span class="emphasis"><em>Type:</em></span> one of "Half", "Normal", "Bold"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "Normal"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "Normal"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab.italic"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab.italic"><code class="option">programs.wezterm.colors.tabBar.inactiveTab.italic</code></a></span></dt><dd><p>Specify whether you want the text to be italic (true) or not (false) for this tab. The default is false.
+</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        false
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "false"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab.strikethrough"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab.strikethrough"><code class="option">programs.wezterm.colors.tabBar.inactiveTab.strikethrough</code></a></span></dt><dd><p>Specify whether you want the text to be rendered with strikethrough (true) or not (false) for this tab. The default is false.
+</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        false
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "false"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTab.underline"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTab.underline"><code class="option">programs.wezterm.colors.tabBar.inactiveTab.underline</code></a></span></dt><dd><p>Specify whether you want "None", "Single" or "Double" underline for label shown for this tab.
+The default is "None".
+</p><p><span class="emphasis"><em>Type:</em></span> one of "None", "Single", "Double"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "None"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "None"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover</code></a></span></dt><dd><p>Color when the mouse pointer hovers over an inactive tab.
+</p><p><span class="emphasis"><em>Type:</em></span> submodule</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">{
+  background = "#3B3052";
+  foreground = "#909090";
+  intensity = "Normal";
+  italic = true;
+  strikethrough = false;
+  underline = "None";
+}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover.background"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover.background"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover.background</code></a></span></dt><dd><p>The color of the background area for the tab.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#3B3052"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#3B3052"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover.foreground"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover.foreground"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover.foreground</code></a></span></dt><dd><p>The color of the text for the tab.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "#909090"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "#909090"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover.intensity"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover.intensity"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover.intensity</code></a></span></dt><dd><p>Specify whether you want "Half", "Normal" or "Bold" intensity for the label shown for this tab.
+The default is "Normal".
+</p><p><span class="emphasis"><em>Type:</em></span> one of "Half", "Normal", "Bold"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "Normal"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "Normal"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover.italic"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover.italic"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover.italic</code></a></span></dt><dd><p>Specify whether you want the text to be italic (true) or not (false) for this tab. The default is true.
+</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        true
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "true"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover.strikethrough"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover.strikethrough"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover.strikethrough</code></a></span></dt><dd><p>Specify whether you want the text to be rendered with strikethrough (true) or not (false) for this tab. The default is false.
+</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        false
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "false"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.colors.tabBar.inactiveTabHover.underline"></a><a class="term" href="options.html#opt-programs.wezterm.colors.tabBar.inactiveTabHover.underline"><code class="option">programs.wezterm.colors.tabBar.inactiveTabHover.underline</code></a></span></dt><dd><p>Specify whether you want "None", "Single" or "Double" underline for label shown for this tab.
+The default is "None".
+</p><p><span class="emphasis"><em>Type:</em></span> one of "None", "Single", "Double"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "None"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "None"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.config"></a><a class="term" href="options.html#opt-programs.wezterm.config"><code class="option">programs.wezterm.config</code></a></span></dt><dd><p>Set any simple value.
+</p><p><span class="emphasis"><em>Type:</em></span> attribute set of string or boolean or signed integer or floating point numbers</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        {
+        
+        }
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">enable_wayland = true;
+font_size = 10.0;
+line_height = 1.0;
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.extraConfig"></a><a class="term" href="options.html#opt-programs.wezterm.extraConfig"><code class="option">programs.wezterm.extraConfig</code></a></span></dt><dd><p>Additional configuration to add to the return statement.
+</p><p><span class="emphasis"><em>Type:</em></span> strings concatenated with "\n"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        ""
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.keybindings"></a><a class="term" href="options.html#opt-programs.wezterm.keybindings"><code class="option">programs.wezterm.keybindings</code></a></span></dt><dd><p>Mapping of keybindings to actions.
+</p><p><span class="emphasis"><em>Type:</em></span> list of submodules</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        [
+        
+        ]
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">[
+  {
+    modifiers = [ "SHIFT" "CTRL" ];
+    key = "l";
+    action = "wezterm.action {ActivateTabRelative = 1}";
+  };
+]
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.keybindings._.action"></a><a class="term" href="options.html#opt-programs.wezterm.keybindings._.action"><code class="option">programs.wezterm.keybindings.*.action</code></a></span></dt><dd><p>The code called when the keybinding is executed.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        ""
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">wezterm.action {ActivateTabRelative = 1}
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.keybindings._.key"></a><a class="term" href="options.html#opt-programs.wezterm.keybindings._.key"><code class="option">programs.wezterm.keybindings.*.key</code></a></span></dt><dd><p>The keybinding main key.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        null
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "l"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.keybindings._.modifiers"></a><a class="term" href="options.html#opt-programs.wezterm.keybindings._.modifiers"><code class="option">programs.wezterm.keybindings.*.modifiers</code></a></span></dt><dd><p>The keybinding modifier key(s).
+</p><p><span class="emphasis"><em>Type:</em></span> list of one of "CTRL", "SUPER", "CMD", "WIN", "SHIFT", "ALT", "OPT", "LEADER"s</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        [
+        
+        ]
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">[ "CTRL" "SHIFT" ]
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.mousebindings"></a><a class="term" href="options.html#opt-programs.wezterm.mousebindings"><code class="option">programs.wezterm.mousebindings</code></a></span></dt><dd><p>Mapping of mouse bindings to actions.
+</p><p><span class="emphasis"><em>Type:</em></span> list of submodules</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        [
+        
+        ]
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">[
+  {
+    button = "Left";
+    event = "Up";
+    count = 1;
+    modifiers = [ "CTRL" ];
+    action = "\"OpenLinkAtMouseCursor\"";
+  }
+]
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.mousebindings._.action"></a><a class="term" href="options.html#opt-programs.wezterm.mousebindings._.action"><code class="option">programs.wezterm.mousebindings.*.action</code></a></span></dt><dd><p>The code called when the keybinding is executed.
+</p><p><span class="emphasis"><em>Type:</em></span> string</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        ""
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">"OpenLinkAtMouseCursor"
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.mousebindings._.button"></a><a class="term" href="options.html#opt-programs.wezterm.mousebindings._.button"><code class="option">programs.wezterm.mousebindings.*.button</code></a></span></dt><dd><p>The mouse binding button.
+</p><p><span class="emphasis"><em>Type:</em></span> one of "Left", "Right", "Middle"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "Left"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "Left"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.mousebindings._.count"></a><a class="term" href="options.html#opt-programs.wezterm.mousebindings._.count"><code class="option">programs.wezterm.mousebindings.*.count</code></a></span></dt><dd><p>The event count to trigger action.
+</p><p><span class="emphasis"><em>Type:</em></span> signed integer</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        1
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        1
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.mousebindings._.event"></a><a class="term" href="options.html#opt-programs.wezterm.mousebindings._.event"><code class="option">programs.wezterm.mousebindings.*.event</code></a></span></dt><dd><p>The mouse binding event.
+</p><p><span class="emphasis"><em>Type:</em></span> one of "Up", "Down", "Drag"</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        "Left"
+      </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
+        "Left"
+      </code></p><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
+                </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.wezterm.mousebindings._.modifiers"></a><a class="term" href="options.html#opt-programs.wezterm.mousebindings._.modifiers"><code class="option">programs.wezterm.mousebindings.*.modifiers</code></a></span></dt><dd><p>The mouse binding modifier key(s).
+</p><p><span class="emphasis"><em>Type:</em></span> list of one of "CTRL", "SUPER", "CMD", "WIN", "SHIFT", "ALT", "OPT", "LEADER"s</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
+        
+        [
+        
+        ]
+    
+      </code></p><p><span class="emphasis"><em>Example:</em></span> </p><pre class="programlisting">[ "CTRL" ]
+</pre><p><span class="emphasis"><em>Declared by:</em></span></p><table border="0" summary="Simple list" class="simplelist"><tr><td><code class="filename"><a class="filename" href="https://github.com/nix-community/home-manager/blob/master/modules/programs/wezterm.nix#blob-path" target="_top">
+                    &lt;home-manager/modules/programs/wezterm.nix&gt;
                 </a></code></td></tr></table></dd><dt><span class="term"><a id="opt-programs.z-lua.enable"></a><a class="term" href="options.html#opt-programs.z-lua.enable"><code class="option">programs.z-lua.enable</code></a></span></dt><dd><p>Whether to enable z.lua.</p><p><span class="emphasis"><em>Type:</em></span> boolean</p><p><span class="emphasis"><em>Default:</em></span> <code class="literal">
         false
       </code></p><p><span class="emphasis"><em>Example:</em></span> <code class="literal">
