@@ -357,11 +357,19 @@ in {
     (mkIf (cfg.settings != [ ]) {
       # Generate warnings about defined but unreferenced modules
       inherit warnings;
-
-      xdg.configFile."waybar/config".source = configSource;
+      
+      xdg.configFile.hmWaybarConfig = {
+        target = "waybar/config";
+        text = configSource;
+        onChange = "pkill waybar; waybar";
+      };
     })
     (mkIf (cfg.style != null) {
-      xdg.configFile."waybar/style.css".text = cfg.style;
+      xdg.configFile.hmWaybarStyle = {
+        target = "waybar/style.css";
+        text = cfg.style;
+        onChange = "pkill waybar; waybar";
+      };
     })
     (mkIf cfg.systemd.enable {
       systemd.user.services.waybar = {
